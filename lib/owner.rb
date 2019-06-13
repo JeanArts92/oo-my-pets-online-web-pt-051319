@@ -64,7 +64,8 @@ class Owner
   
   def sell_pets 
     @pets.each do |species, pets|
-    pets.any?
+    if pets.any? == 0 
+      pets.mood = "nervous"
     end
   end
   
