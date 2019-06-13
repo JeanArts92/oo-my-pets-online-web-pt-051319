@@ -45,7 +45,7 @@ class Owner
   end 
   
   def walk_dogs
-    dog.mood.self = "happy"
+    dog.self.mood = "happy"
   end 
   
 end
