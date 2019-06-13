@@ -65,7 +65,6 @@ class Owner
   def sell_pets 
     @pets.each do |species, pets|
     pets.any?
-    pets.mood = "nervous"
     end
   end
   
