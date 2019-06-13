@@ -64,7 +64,7 @@ class Owner
   
   def sell_pets 
     @pets.each do |species, pets|
-      pets.any?
+      pets.all?
    end
   end
   
