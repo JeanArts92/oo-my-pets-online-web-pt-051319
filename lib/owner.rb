@@ -9,6 +9,9 @@ class Owner
     @pets = {fishes: [], cats: [], dogs: []}
   end 
   
+  def self.all
+    
+  end
   
   
   def say_species
