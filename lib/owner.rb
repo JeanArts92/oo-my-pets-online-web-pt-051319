@@ -12,7 +12,7 @@ class Owner
   end 
   
   def self.all
-    @@all.select{|owner| owner.species.pets}
+    @@all
   end
   
   
