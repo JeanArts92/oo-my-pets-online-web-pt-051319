@@ -67,7 +67,7 @@ class Owner
       pets.map do |animals|
         animals.mood = "nervous"
    end
-   animals.clear
+   pets.clear
   end
 end 
   
