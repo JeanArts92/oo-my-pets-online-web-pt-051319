@@ -10,7 +10,7 @@ class Owner
   end 
   
   def self.all 
-    @@all.owner.pets
+    @@all.pets
   end 
   
   def say_species
