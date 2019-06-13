@@ -19,6 +19,9 @@ class Owner
     @@all.count
   end
   
+  def self.reset 
+    @@all.
+  
   
   def say_species
     "I am a #{species}."
