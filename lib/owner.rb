@@ -10,7 +10,7 @@ class Owner
   end 
   
   def self.all
-    self.all.collect{|p| p.pets}
+    @@all.collect{|p| p.pets}
   end
   
   
